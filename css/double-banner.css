@@ -1,0 +1,28 @@
+.double-banner{
+    width: 100%;
+    height: 265px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 18px;
+}
+.double-banner img{
+    width: 41.8%;
+    height: 100%;
+    border-radius: 20px;
+}
+.sec-double-banner{
+    width: 100%;
+    height: 265px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 18px;
+}
+.sec-double-banner img{
+    width: 41.8%;
+    height: 100%;
+    border-radius: 20px;
+}

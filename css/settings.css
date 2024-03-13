@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-family: yekan , homa; 
+}
+
+@font-face {
+  font-family: yekan;
+  src: url(../fonts/IRANYekanWeb.eot);
+  src: url(../fonts/IRANYekanWeb.ttf);
+  src: url(../fonts/IRANYekanWeb.woff);
+  src: url(../fonts/IRANYekanWeb.woff2);
+}
+@font-face {
+  font-family: homa;
+  src: url(../fonts/BHoma.eot);
+  src: url(../fonts/BHoma.ttf);
+  src: url(../fonts/BHoma.woff);
+  src: url(../fonts/BHoma.woff2);
+}

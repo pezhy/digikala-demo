@@ -1,0 +1,44 @@
+.more-section {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-flow: row nowrap;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 115px;
+  margin-bottom: 20px;
+  
+}
+.more-section div {
+  height: 52px;
+  width: 52px;
+  cursor: pointer;
+}
+.more-section div img {
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
+.more-section div p {
+  width: 75px;
+  font-size: 11px;
+  
+}
+.more div{
+  background-color: #f0f0f1;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  margin-right: -15px;
+  margin-bottom: 5px;
+ 
+}
+.more div svg{
+ margin: 14px 6px;
+ scale: 1.2;
+}
+.submenu{
+  
+}

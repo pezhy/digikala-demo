@@ -1,0 +1,61 @@
+.popular-brand{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popular-brand-box{
+    height: 222px;
+    width: 1330px;
+    outline-style: solid;
+    outline-color: rgb(226, 226, 226);
+    outline-width: 1px;
+    border-radius: 16px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.popular-brand-svg{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 9px;
+    width: 100%;
+    height: 40%;
+}
+
+.popular-brand-svg svg{
+    fill: #F9C010;
+}
+.popular-brand-svg p{
+    font-size: 20px
+}
+
+.popular-swiper .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;  
+    margin: 0 20px;  
+
+}
+.papco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 40px;
+    margin: 0 20px; 
+    
+}
+.papco img{
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

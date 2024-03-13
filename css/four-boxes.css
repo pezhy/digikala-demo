@@ -1,0 +1,19 @@
+.four-boxes {
+  width: 100%;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 15px;
+}
+.four-boxes div {
+  height: 100%;
+  width: 320px;
+}
+.four-boxes div img {
+  height: 100%;
+  width: 320px;
+  border-radius: 16px;
+  cursor: pointer;
+}

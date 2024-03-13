@@ -1,0 +1,68 @@
+.pishnahad-digi{
+    width: 100%;
+    height: 413px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pishnahad-digi h2{
+    margin: 30px;
+    font-weight: 500;
+    font-size: 21px;
+
+}
+.pishnahad-digi-box{
+    height: 310px;
+    width: 1330px;
+    display: flex;  
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    outline-style: solid;
+    outline-color: rgb(226, 226, 226);
+    outline-width: 1px;
+    border-radius: 16px;
+    overflow: hidden;
+    }
+.pishnahad-digi-pic-text{
+    height: 50%;
+    width: 190px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    outline-style: solid;
+    outline-color: whitesmoke;
+    outline-width: 1px;
+    font-size: 14px;
+    row-gap: 1px;
+    
+}
+.pishnahad-digi-pic-1{
+    width: 85px;
+    height: 85px;
+    background-color: #F0F0F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.pishnahad-digi-pic-2{
+    width: 85px;
+    height: 85px;
+    background-color: #F0F0F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.pishnahad-digi-pic-1 img{
+    width: 55px;
+    height: 55px;
+}
+.pishnahad-digi-pic-2 img{
+    width: 45px;
+    height: 45px;
+}

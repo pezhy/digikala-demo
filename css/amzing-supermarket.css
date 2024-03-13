@@ -1,0 +1,121 @@
+.amazing-supermarket {
+  height: 140px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.amazing-supermaket-box {
+  height: 80%;
+  width: 84%;
+  background: rgb(47, 168, 16);
+  background: linear-gradient(
+    270deg,
+    rgba(47, 168, 16, 1) 11%,
+    rgba(140, 255, 144, 1) 100%);
+  border-radius: 16px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center start;
+  align-items: center;
+  column-gap: 75px;
+}
+.amazing-supermarket-text {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 28px;
+  column-gap: 25px;
+  padding-right: 45px;
+}
+.amazing-supermarket-text .percent {
+  width: 66px;
+  height: 62px;
+}
+.amazing-supermarket-text .text {
+  width: 250px;
+  height: 28px;
+}
+.amazing-supermarket-percent-text {
+  width: 110px;
+  height: 28px;
+  background-color: #39ae00;
+  border-radius: 9999px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.amazing-supermarket-percent-text p {
+  width: 84px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 28px;
+  text-align: center;
+}
+.amazing-supermarket-pic {
+  height: 28px;
+  width: 60%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 7px;
+}
+.amazing-supermarket-pic-circle{
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.amazing-supermarket-more {
+  width: 145px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+.amazing-supermarket-pic img{
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+
+}
+.amazing-supermarket-percent{
+  background-color: #ef3c51;
+  height: 20px;
+  line-height: 20px;
+  width: 35px;
+  position: absolute ;
+  top: 78%;
+  right: 0px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+.amazing-supermarket-more svg{
+  fill: #6AC23F;
+  margin-top: -5px;
+  scale: 0.9;
+}
+.amazing-supermarket-more span{
+  color: #6AC23F;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 50px;
+}

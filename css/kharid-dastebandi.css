@@ -1,0 +1,45 @@
+.kharid-dastebandi {
+  width: 100%;
+  height: 470px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.kharid-dastebandi-box {
+  width: 90%;
+  height: 330px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 80px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: -200px;
+}
+.kharid-dastebandi-pic-text img {
+  width: 100px;
+  height: 100px;
+}
+.kharid-dastebandi-pic-text {
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 100px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.kharid-dastebandi-pic-text p{
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: auto;
+    
+}
+.kharid-dastebandi h3{
+    align-items: center;
+    display: block;
+    margin-top: -30px;
+    font-weight: 500;
+    
+}

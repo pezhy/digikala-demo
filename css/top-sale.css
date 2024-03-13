@@ -1,0 +1,129 @@
+.top-sale {
+  width: 100%;
+  height: 405px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-sale-box {
+  height: 100%;
+  width: 1336px;
+  border-radius: 15px;
+  outline-style: solid;
+  outline-color: rgb(226, 226, 226);
+  outline-width: 1px;
+}
+.top-sale-text{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.top-sale-text-right{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 39px;
+    column-gap: 10px;
+    
+}
+.top-sale-text-left{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+.top-sale-text h2{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.top-sale-text span{
+    justify-content: flex-start;
+    color: rgb(0, 177, 177);
+    font-size: 14px;
+    margin-top: 22px;
+  
+}
+.top-sale-text svg{
+    fill: orange;
+    margin-top: 30px;
+}
+.top-sale-product{
+    width: 100%;
+    height: 88%;
+    justify-content: center;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.top-sale-swiper{
+    justify-content: center;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 100%;
+    width: 100%;    
+}
+.top-sale-swiper-product{
+    width: 260px;
+    height: 33%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+    
+}
+.top-sale-swiper-product img{
+    width: 85px;
+    height: 85px;
+}
+
+.top-sale-swiper-product span{
+    font-size: 28px;
+    font-weight: 600;
+    color: #19BFD3;
+}
+.top-sale-swiper-product p{
+    font-size: 12px;
+    width: 1000px;
+    margin-right: 5px;
+    
+}
+.top-sale-slide{
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 100%;
+  width: 260px;
+}
+.top-sale-swiper-wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row nowrap;
+   height: 100%;  
+   width: 100%;
+}
+.product-line{
+    height: 1px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.068);
+    margin-right: 110px;
+}
+.dovomi{
+    margin-bottom: -30px;
+}

@@ -1,0 +1,119 @@
+.digi-plus {
+  height: 430px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.digi-plus-box {
+  height: 390px;
+  width: 1336px;
+  background-color: #941b80;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.digi-plus-text-1 {
+  width: 128px;
+  height: 32px;
+  margin-top: 38px;
+  margin-bottom: 10px;
+  margin-right: -20px;
+}
+.digi-plus-text-1 img {
+  width: 128px;
+  height: 32px;
+}
+.digi-plus-text-pic p {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 10px;
+  margin-right: -20px;
+}
+.digi-plus-text-pic .button {
+  width: 105px;
+  height: 38px;
+  border-radius: 7px;
+  border: 1px solid white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  box-sizing: border-box;
+  margin-right: -20px;
+}
+.digi-plus-text-pic .button span {
+  font-size: 12px;
+  color: white;
+}
+.digi-plus-text-pic {
+  width: 450px;
+  height: 100%;
+  padding-right: 40px;
+}
+.digi-plus-pic img {
+  width: 370px;
+  height: 100%;
+  margin-top: -45px;
+}
+.digi-plus-product-box {
+  width: 870px;
+  height: 355px;
+  background-color: white;
+  border-radius: 8px;
+  margin-right: -60px;
+}
+.digi-plus-product-text {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.digi-plus-product-text .right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 8px;
+    padding-right: 15px;
+}
+.digi-plus-product-text .right span{
+    font-weight: 600;
+}
+.digi-plus-product-text .left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 15px;
+}
+.digi-plus-product-text .left span{
+    font-size: 12px;
+    color: #B12BA4;
+}
+.digi-plus-product-text .left svg{
+ margin-top: -5px;
+ scale: 0.8;
+}
+.digi-plus-product-pic{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    column-gap: 20px;
+    
+}
+.digi-plus-product-pic img{
+    width: 116px;
+    height: 116px;
+    margin-bottom: 20px;
+}

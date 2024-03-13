@@ -1,0 +1,96 @@
+.amazing {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.amazing-box {
+  height: 100%;
+  width: 84%;
+  background-color: #ef3c51;
+  border-radius: 17px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.Swiper-third {
+  width: 98%;
+  height: 260px;
+}
+.Swiper-third .swiper-slide:nth-of-type(1) {
+  background: unset;
+}
+.Swiper-third .swiper-slide:nth-of-type(2) {
+  border-radius: 0 10px 10px 0;
+}
+.Swiper-third .swiper-slide:nth-of-type(13) {
+  border-radius: 10px 0px 0px 10px;
+}
+.swiper-third-style {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+.swiper-third-style svg {
+  width: 92px;
+  height: 77px;
+}
+.swiper-third-style img {
+  width: 100px;
+  height: 115px;
+}
+.swiper-third-style a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+.swiper-third-style a svg {
+  scale: 0, 8;
+  fill: white;
+  margin-bottom: -2.5px;
+}
+.swiper-slide-style {
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 15px;
+  padding: 12px;
+}
+.toman {
+  height: 20px;
+}
+.toman svg {
+  fill: #2b2b2b;
+  margin-bottom: -5px;
+  scale: 1.1;
+  margin-right: -5px;
+}
+.toman-percent {
+  display: inline-block;
+  height: 19px;
+  line-height: 19px;
+  width: 35px;
+  background-color: #d32f2f;
+  border-radius: 15px;
+  color: white;
+  font-size: 13px;
+}
+.toman-old-price {
+  text-decoration: line-through;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #c0c2c5;
+  padding-right: 54px;
+}
+.toman-price {
+  font-size: 17px;
+  margin-right: 20px;
+  line-height: 17px;
+}
